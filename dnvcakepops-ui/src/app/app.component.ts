@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dnvcakepops-ui';
+  welcomeMessage = 'Welcome to our own personal photo log - ya look hot today ;)';
 }

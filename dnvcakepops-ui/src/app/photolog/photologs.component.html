@@ -1,0 +1,21 @@
+<div >    
+    <mat-list>        
+        <mat-card *ngFor="let photolog of photologs">
+            <mat-card-header>
+                <mat-card-title>{{ photolog.name }}</mat-card-title>
+                <mat-card-subtitle>
+                    f{{ photolog.aperture }}
+                    -{{ photolog.focallength}}mm 
+                    @{{ photolog.iso }} ISO</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+            </mat-card-content>
+        </mat-card>
+        <span class="card-spacer"></span>
+      </mat-list>
+</div>
